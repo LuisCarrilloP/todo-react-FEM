@@ -1,0 +1,50 @@
+.home-page-container {
+   height: 100%;
+   width: 100%;
+
+   background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+
+.main-container.dark .home-page-container {
+   background-color: var(--color-very-dark-blue);
+}
+
+.home-page-image {
+   display: block;
+}
+
+.todo-container {
+   background-color: transparent;
+   position: absolute;
+   min-height: 20%;
+   max-width: 55%;
+   margin: 0 auto;
+   top: 10%;
+   left: 0;
+   right: 0;
+
+   display: flex;
+   flex-direction: column;
+}
+
+.todo-wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.title {
+   color: var(--color-very-light-grayish-blue);
+   text-transform: uppercase;
+   font-size: 4rem;
+   letter-spacing: 1rem;
+}
+
+.theme-icon {
+   cursor: pointer;
+}
+
+.hidden {
+   display: none;
+}
